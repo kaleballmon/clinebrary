@@ -101,7 +101,7 @@ function promptDelete(): void {
       type: "checkbox",
       name: "delete",
       message: "delete books",
-      choices: collection.getBooks(showCompleted).map((item) => ({
+      choices: collection.getBooks(true).map((item) => ({
         name: item.title,
         value: item.id,
       })),
