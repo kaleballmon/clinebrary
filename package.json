@@ -1,0 +1,22 @@
+{
+  "name": "clinebrary",
+  "version": "1.0.0",
+  "description": "A way to keep track of books you're reading/have read through the commandline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc; node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^7.3.0",
+    "@types/lowdb": "^1.0.9",
+    "prettier": "2.0.5"
+  },
+  "dependencies": {
+    "inquirer": "^6.3.1",
+    "lowdb": "^1.0.0"
+  }
+}
