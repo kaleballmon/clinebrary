@@ -8,8 +8,9 @@ First, make a new directory and clone the repository.
 ```
 git clone git@github.com:kaleballmon/clinebrary.git
 ```
-Next, install the dependencies.
+Next, change directories to the project and install the dependencies.
 ```
+cd clinebrary
 npm install
 ```
 
