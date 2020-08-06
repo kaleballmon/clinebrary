@@ -3,13 +3,6 @@ import { Library } from "./library";
 import { JsonLibrary } from "./jsonLibrary";
 import * as inquirer from "inquirer";
 
-let books: Book[] = [
-  new Book(1, "Catcher in the Rye"),
-  new Book(2, "Water Dancer"),
-  new Book(3, "TypeScript"),
-  new Book(4, "Between the World and Me", true),
-];
-
 enum Commands {
   Add = "Add New Book",
   Edit = "Edit Title",
@@ -22,7 +15,7 @@ enum Commands {
 
 let showCompleted: boolean = true;
 
-let collection: Library = new JsonLibrary("Kaleb", books);
+let collection: Library = new JsonLibrary("Kaleb");
 
 function displayTodoList(): void {
   console.log(`${collection.userName}'s todo list`);
