@@ -1,6 +1,7 @@
 # clinebrary
 A simple way to keep track of books I've have read through the command line.
 During quarantine I've been reading a TON, so I made this to help keep track of my progress.
+This project was made as a way for me to reinforce my TypeScript knowledge.
 
 ## Installing
 First, make a new directory and clone the repository.
