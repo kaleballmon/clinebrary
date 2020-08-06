@@ -6,8 +6,6 @@ This project was made as a way for me to reinforce my TypeScript knowledge.
 ## Installing
 First, make a new directory and clone the repository.
 ```
-mkdir clinebrary
-cd clinebrary
 git clone git@github.com:kaleballmon/clinebrary.git
 ```
 Next, install the dependencies.
